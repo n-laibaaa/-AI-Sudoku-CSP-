@@ -14,11 +14,17 @@ Tracks:
 Number of Backtracking Calls
 Number of Backtracking Failures
 📂 Project Structure
+
 ├── sudoku_csp.py
+
 ├── easy.txt
+
 ├── medium.txt
+
 ├── hard.txt
+
 ├── veryhard.txt
+
 🧠 Approach
 
 The Sudoku problem is modeled as a CSP:

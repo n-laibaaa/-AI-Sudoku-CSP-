@@ -3,16 +3,27 @@
 This project implements a Sudoku Solver using Constraint Satisfaction Problem (CSP) techniques. It solves Sudoku boards of varying difficulty using:
 
 Backtracking Search
+
 Forward Checking
+
 Arc Consistency (AC-3)
+
 🚀 Features
+
 Solves Easy, Medium, Hard, and Very Hard Sudoku boards
+
 Uses MRV (Minimum Remaining Values) heuristic
+
 Applies AC-3 for domain reduction
+
 Implements Forward Checking for constraint propagation
+
 Tracks:
+
 Number of Backtracking Calls
+
 Number of Backtracking Failures
+
 📂 Project Structure
 
 ├── sudoku_csp.py

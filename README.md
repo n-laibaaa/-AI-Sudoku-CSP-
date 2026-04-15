@@ -30,19 +30,35 @@ Number of Backtracking Failures
 The Sudoku problem is modeled as a CSP:
 
 Variables: Each cell in the 9×9 grid
+
 Domain: Values from 1 to 9
+
 Constraints:
+
 No repeated values in any row
+
 No repeated values in any column
+
 No repeated values in any 3×3 subgrid
+
 Techniques Used
+
 AC-3 Algorithm: Reduces domains before search
+
 Backtracking: Searches for valid assignments
+
 Forward Checking: Eliminates invalid values early
+
 MRV Heuristic: Chooses the most constrained variable first
+
 ▶️ How to Run
+
 Make sure Python is installed
+
 Place all .txt boards in the same directory
+
 Update file paths in code (if needed)
+
 Run the program:
+
 python sudoku_csp.py
